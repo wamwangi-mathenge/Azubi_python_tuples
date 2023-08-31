@@ -23,3 +23,7 @@ print(numbers[2:4])
 print(len(numbers))
 print(numbers.count(1))
 print(numbers.index("V"))
+
+
+tuple1 = (12312, "abababa", [1, 2, 3, 4, 5], ("a", "b", "c", "d"), "end")
+print(tuple1)
