@@ -53,3 +53,14 @@ tuple.count(x) => Number of elements in the tuple with the value of x
 
 tuple.index(x) => Index of the first element with the value of x. If it does not exist, an error will be shown
 ```
+
+## Looping through tuples
+
+Similar to lists, a `for` loop can be used to access individual elements in a tuple
+
+```
+address = (52066, "Aachen", "Euperor Str. 70", "0241-4009-12345")
+
+for address_part in address:
+    print(address_part)
+```
