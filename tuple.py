@@ -42,3 +42,7 @@ age = input("How old are you: ")
 employee = (name, phone, age)
 
 print(employee)
+
+## Looping through tuples
+for employee_details in employee:
+    print(employee_details)
