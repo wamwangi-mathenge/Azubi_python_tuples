@@ -40,3 +40,16 @@ address = (zip code, city, street, house number)
 position = (x_coordinates, y_coordinates)
 date = (year, month, date)
 ```
+
+## Slicing operator and functions & methods
+
+The slicing operator also works with tuples to create a sub-tuple
+
+Just as with lists, indices can be used to access not only a single element of the tuple but also the entire range. There are functions and methods that also work for tuples. Some examples include:
+```
+len(tuple) => Number of elements in a tuple
+
+tuple.count(x) => Number of elements in the tuple with the value of x
+
+tuple.index(x) => Index of the first element with the value of x. If it does not exist, an error will be shown
+```
