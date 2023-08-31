@@ -30,5 +30,15 @@ print(tuple1)
 
 
 # Tuples cannot be modified - Immutability
-tuple1[2] = "cdcdcd"
-print(tuple1)
+# tuple1[2] = "cdcdcd"
+# print(tuple1)
+
+
+## Interactively create a tuple
+name = input("What is your name: ")
+phone = input("What is your phone number: ")
+age = input("How old are you: ")
+
+employee = (name, phone, age)
+
+print(employee)
