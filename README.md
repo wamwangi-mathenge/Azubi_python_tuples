@@ -24,3 +24,19 @@ Tuples have an index like lists
 Sub-tuples can be defined with slicing
 
 Combination of list of tuples leads to a powerful structure
+
+## What are tuples used for?
+
+Tuples are quite similar to lists.
+
+The following rule of thumb can be used to determine when to use lists and when to use tuples
+
+- Lists are used for many similar items.
+- Tuples are used for items with many attributes
+
+Consider the following data as suitable examples of tuples
+```
+address = (zip code, city, street, house number)
+position = (x_coordinates, y_coordinates)
+date = (year, month, date)
+```
